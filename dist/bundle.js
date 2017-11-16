@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e5919bdf8c55f612a10dafbcc3cf4932.png";
+module.exports = __webpack_require__.p + "dbb7aee95f24ebb860e4562228fa4b32.png";
 
 /***/ }),
 /* 1 */
@@ -81,6 +81,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__img_png__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__img_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__img_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_xml__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_xml___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__data_xml__);
+
 
 
 
@@ -97,7 +100,9 @@ function component() {
 
     element.appendChild(myIcon)
 
-    return element;
+    console.log(__WEBPACK_IMPORTED_MODULE_3__data_xml___default.a)
+
+    return element
 }
   
 document.body.appendChild(component())
@@ -17854,6 +17859,12 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = {"note":{"to":["Mary"],"from":["John"],"heading":["Reminder"],"body":["Call Cindy on Tuesday"]}}
 
 /***/ })
 /******/ ]);
