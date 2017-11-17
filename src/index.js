@@ -3,6 +3,12 @@ import printMe from './print'
 
 //import './styles.css'
 
+if (process.env.NODE_ENV === 'production') {
+    console.log('Running in production mode!')
+} else if (process.env.NODE_ENV === 'development') {
+    console.log('Running in development mode!')    
+}
+
 function component() {
     let element = document.createElement('div')
     const btn = document.createElement('button')
